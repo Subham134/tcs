@@ -1,0 +1,60 @@
+#center{
+    margin: auto;
+    width: 30%;
+    margin-top: 150px;
+}
+
+label {
+    width:220px;
+    clear:left;
+    text-align:left;
+    padding-right:5px;
+    margin-bottom:10px;
+}
+
+input, label {
+    float:left;
+    margin-bottom:10px;
+    
+}
+input{
+    border: 3px solid black;
+    width: 200px;
+    height: 25px;
+}
+button{
+    position:fixed;
+    bottom: 500px;
+    left: 800px;
+    
+    width:6%;
+    height: 30px;
+    border-radius: 15%;
+    background-color: blue;
+    color: white;
+   
+  }
+  h1{
+      color: red;
+      font-size: 60px;
+  }
+  #capital{
+      color: blue;
+      font-size: 30px;
+  }
+  
+  p{
+      color: green;
+      font-size: 30px;
+  }
+#ip{
+ margin: auto;
+ text-align: center;
+ margin-left: 1px;  
+}
+#x1{
+    font-size: 50px;
+}
+a{
+    font-size: 20px;
+}
