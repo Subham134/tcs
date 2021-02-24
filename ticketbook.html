@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Ticket Reservation</title>
+  <link rel="stylesheet" href="book.css">
+
+</head>
+
+<body>
+    <h1>ABC<span id="capital">Airline</span></h1>
+    <div id="center">
+        <h2 id="t1">Ticket Booking</h2>
+        <form name="myForm" onsubmit="return validateForm()" method="post" >
+            <label for="pnr">PNR Number</label>
+            <input type="text" id="pnr" name="pnr" class="req" readonly><br>
+            <label for="Travel Date">Travel Date</label>
+            <input type="date"  name="Travel Date" class="req" ><br>
+            <label for="source">Source Airport</label>
+            <input type="text" name="source" class="req"><br>
+            <label for="dest">Destination Airport</label>
+            <input type="text"  name="dest" class="req"><br>
+            <label for="Status">Status</label>
+          <select name="status" class="req">
+          <option value="New">New</option>
+         <option value="Confirm">Confirm</option>
+          <option value="Hold">Hold</option>
+        
+            </select>
+            <label for="Seat Preference">Seat Preference</label>
+          <select name="Seat Preference" class="req">
+          <option value="Window">Window</option>
+         <option value="Middle">Middle</option>
+          <option value="Aisle">Aisle</option>
+        
+            </select>
+            <label for="Meal Preference" >Meal Preference</label>
+          <select name="Meal Preference" class="req">
+          <option value="Veg">Veg</option>
+         <option value="Non-Veg">Non-Veg</option>
+          
+           </select>
+           <button type="submit" value="submit"><b>Book Ticket</b></button>
+          </form>
+              
+    </div>
+    <script src="tick.js"></script>
+</body>
+</html>
